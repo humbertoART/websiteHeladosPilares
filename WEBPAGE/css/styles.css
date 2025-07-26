@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d4a7a7;
+}
+
+main {
+    background-color: #a5e4d1;
+}
+
+footer {
+    background-color: #757575;
+}
+
+img {
+    width: 30%;
+}
+
+#enchiladas {
+    width: 60%;
+}
+
+.redes {
+    width: 2%;
+}
