@@ -5,6 +5,7 @@
 
 header {
     background-color: #d4a7a7;
+    height: 250px;
 }
 
 main {
@@ -21,8 +22,74 @@ img {
 
 #enchiladas {
     width: 60%;
+    border: 5px rgb(75, 107, 71) ridge;
 }
 
 .redes {
     width: 2%;
 }
+
+#titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+    color: azure;
+    position: absolute; /**/
+    left: 400px;
+    top: 50px; /*lo empuja hacia abajo*/
+}
+
+#menu {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+#subtitulo-helado {
+    font-family: "Goldman", sans-serif;
+    color:#720404;
+    font-size: 60px;
+    position: relative;
+    left:400px;
+    top: 50px;
+}
+
+.subtitulo {
+    font-family: "Lobster Two", sans-serif; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    border: 15px rgb(175, 145, 145) ridge;
+    padding: 20px;
+    width: 32%;
+    border-radius: 30px;
+    position: relative;
+    left: 400px;
+    top: 50px;
+}
+
+#ingredientes {
+  font-family: "Gideon Roman", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 23px;
+  border: 5px green solid;
+  padding: 10px;
+  width: 30%;
+  border-radius: 40px;
+  /* margin: 5px 0; */
+}
+
+#preparacion {
+  font-family: "Gideon Roman", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 23px;
+  border: 5px green solid;
+  padding: 10px;
+  width: 30%;
+  border-radius: 40px;
+  /* margin: 5px 0; */
+}
+/*default:16px*/

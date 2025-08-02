@@ -3,15 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Lobster+Two&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Receta</title>
   </head>
 
   <body>
     <header>
-      <h1>Receta para hacer helados artesanales</h1>
+      <h1 id="titulo">Receta para hacer helados artesanales</h1>
       <nav>
-        <ul>
+        <ul id="menu">
           <li>Ingredientes</li>
           <li>Modo de preparación</li>
         </ul>
@@ -24,17 +38,18 @@
 
     <main>
       <img id="enchiladas" src="img/helado.png" alt="helado de vainilla" />
-      <h2>Helado de vainilla</h2>
-      <h2>Ingredientes</h2>
-      <ul>
+      <h2 id="subtitulo-helado">Helado de vainilla</h2>
+      <h2 class="subtitulo">Ingredientes</h2>
+      <ul id="ingredientes">
         <!-- lista desordenada -->
         <li>3 tazas Crema batida</li>
         <li>4 tazas de azúcar</li>
         <li>2 cucharaditas de vainilla</li>
         <li>5 tazas de leche entera</li>
       </ul>
-      <h2>Modo de preparación</h2>
-      <ol>
+      <h2 class="subtitulo">Modo de preparación</h2>
+      <ol id="preparacion">
+        <!--Lista ordenada-->
         <li>
           Mezcle la crema batida con el azúcar y las cucharaditas de vainilla
           hasta conseguir una mezcla homogenea.
@@ -75,7 +90,10 @@
       <a href="https://x.com/?lang=es"
         ><img class="redes" src="img/X_icon.svg.png" alt="x icon"
       /></a>
-      <h5>Todos los derechos reservados 2025. Elaborado por @HART.</h5>
+      <h5>
+        Todos los derechos reservados, 2025/ All rights reserved, 2025.
+        Elaborado por @HART/By @HART.
+      </h5>
       <h5>Escuela de código/code school.</h5>
     </footer>
   </body>
