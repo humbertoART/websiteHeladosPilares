@@ -43,3 +43,13 @@ Top, right, bottom, left
 1. position: absolute: referencia es el viewport, los elementos de abajo suben | relative: la referencia es el mismo elemento, los elementos de abajo no suben |
 2. flex-box: fixed |
 3. grid
+
+## Fixed (1)
+* top
+* bottom
+* left
+* right
+
+## Sticky (2)
+* top
+* bottom o right/left
