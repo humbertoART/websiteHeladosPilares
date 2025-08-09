@@ -1,11 +1,15 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 header {
     background-color: #d4a7a7;
     height: 250px;
+    position: sticky; /*fija el elemento mientras que los demás se les conserva el efecto scroll*/
+    top: 0px;
+    z-index: 2; /*accede a las capas*/
 }
 
 main {
@@ -23,10 +27,15 @@ img {
 #enchiladas {
     width: 60%;
     border: 5px rgb(75, 107, 71) ridge;
+    position: relative;
+    left: 20%;
+    top: 10px;
 }
 
 .redes {
+    position: relative;
     width: 2%;
+    left: 110rem;
 }
 
 #titulo {
@@ -34,8 +43,8 @@ img {
     font-size: 80px;
     font-weight: 600;
     color: azure;
-    position: absolute; /**/
-    left: 400px;
+    position: absolute; 
+    left: 200px;
     top: 50px; /*lo empuja hacia abajo*/
 }
 
@@ -44,6 +53,9 @@ img {
     font-size: 23px;
     font-weight: 400;
     color: rgb(255, 255, 255);
+    position: absolute;
+    left: 82%;
+    top: 85px;
 }
 
 #subtitulo-helado {
@@ -51,8 +63,8 @@ img {
     color:#720404;
     font-size: 60px;
     position: relative;
-    left:400px;
-    top: 50px;
+    top: 10px;
+    text-align: center;
 }
 
 .subtitulo {
@@ -65,8 +77,8 @@ img {
     width: 32%;
     border-radius: 30px;
     position: relative;
-    left: 400px;
-    top: 50px;
+    left: 1rem;
+    top: 10px;
 }
 
 #ingredientes {
@@ -75,10 +87,14 @@ img {
   font-style: normal;
   font-size: 23px;
   border: 5px green solid;
-  padding: 10px;
+  padding: 24px;
   width: 30%;
   border-radius: 40px;
   /* margin: 5px 0; */
+  position: relative;
+  top: 1rem;
+  left: 3rem;
+  margin-bottom: 20px;
 }
 
 #preparacion {
@@ -87,9 +103,88 @@ img {
   font-style: normal;
   font-size: 23px;
   border: 5px green solid;
-  padding: 10px;
+  padding: 28px;
   width: 30%;
   border-radius: 40px;
   /* margin: 5px 0; */
+  position: relative;
+  top: 1rem;
+  left: 3rem;
+  margin-bottom: 30px;
 }
 /*default:16px*/
+
+#logo {
+    position: relative;
+    width: 70px;
+    right: 120px;
+    top: 20px;
+}
+
+.boton {
+    position: relative;
+    left: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    bottom: 10px;
+}  
+
+.boton:hover {
+    cursor: pointer;
+}
+
+/* DESCRIPCION GENERAL */
+
+#descripcion {
+    /* position: relative; */
+    padding: 20px;
+    /* right: 50rem; */
+    margin-left: 20%;
+    font-size: 20px;
+}
+
+#descripcion a {
+    position: relative;
+    margin-left: 30%;
+}
+
+#enlace {
+    /* color: aliceblue; */
+    position: relative;
+    left: 45%;
+    bottom: 10px;
+    font-size: 30px;
+    color: rgb(61, 117, 139);
+}
+
+/* FOOTER */
+.enlaces {
+    /* position: relative; */
+    top: 15px;
+}
+
+.derechos {
+    position: relative;
+    bottom: 20px;
+    margin-left: 100px;
+}
+
+/* icons */
+#corazon {
+    width: 70px;
+    position: relative;
+    bottom: 2100px;
+    left: 100px;
+}
+
+#mensaje {
+    width: 70px;
+    position: fixed; /*se queda fijo aunque se mueva el scroll*/
+    right: 70px;
+    bottom: 100px;
+}
+
+#mensaje:hover {
+    cursor: pointer;
+}

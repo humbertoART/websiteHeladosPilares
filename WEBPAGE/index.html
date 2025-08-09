@@ -30,13 +30,15 @@
           <li>Modo de preparación</li>
         </ul>
       </nav>
-      <button>Ingresar</button>
-      <button>Registrar</button>
-      <img src="img/chef.png" alt="gorro chef" />
-      <hr />
+      <button class="boton">Ingresar</button>
+      <button class="boton">Registrar</button>
+      <a href="index.html">
+        <img id="logo" src="img/chef.png" alt="gorro chef" />
+      </a>
+      <!-- <hr/> -->
     </header>
 
-    <main>
+    <main id="contenedor">
       <img id="enchiladas" src="img/helado.png" alt="helado de vainilla" />
       <h2 id="subtitulo-helado">Helado de vainilla</h2>
       <h2 class="subtitulo">Ingredientes</h2>
@@ -61,7 +63,7 @@
           correspondiente.
         </li>
       </ol>
-      <p>
+      <p id="descripcion">
         <strong>Disfrute de su helado artesanal!</strong><br />
         El helado es un postre congelado, popular y delicioso, hecho a base de
         leche o crema, y a menudo con saborizantes y edulcorantes. <br />
@@ -75,26 +77,31 @@
       <a
         href="https://www.recetasnestle.com.do/recetas/helado-de-vainilla"
         target="_blank"
+        id="enlace"
         >Para mayor información.</a
       >
+      <img id="corazon" src="img/corazon.png" alt="corazon" />
+      <img id="mensaje" src="img/burbuja-de-chat.png" alt="chat" />
       <hr />
     </main>
 
     <footer>
-      <a href="https://www.facebook.com/?locale=es_LA"
-        ><img class="redes" src="img/facebook.png" alt="facebook icon"
-      /></a>
-      <a href="https://www.instagram.com/"
-        ><img class="redes" src="img/instagram.png" alt="instagram icon"
-      /></a>
-      <a href="https://x.com/?lang=es"
-        ><img class="redes" src="img/X_icon.svg.png" alt="x icon"
-      /></a>
-      <h5>
+      <div class="enlaces">
+        <a href="https://www.facebook.com/?locale=es_LA"
+          ><img class="redes" src="img/facebook.png" alt="facebook icon"
+        /></a>
+        <a href="https://www.instagram.com/"
+          ><img class="redes" src="img/instagram.png" alt="instagram icon"
+        /></a>
+        <a href="https://x.com/?lang=es"
+          ><img class="redes" src="img/X_icon.svg.png" alt="x icon"
+        /></a>
+      </div>
+      <h5 class="derechos">
         Todos los derechos reservados, 2025/ All rights reserved, 2025.
         Elaborado por @HART/By @HART.
       </h5>
-      <h5>Escuela de código/code school.</h5>
+      <h5 class="derechos">Escuela de código/code school.</h5>
     </footer>
   </body>
 </html>
